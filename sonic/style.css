@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Oswald&display=swap');
+body{
+    background-color: rgb(234, 213, 129);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Shadows Into Light', cursive;
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.brand img{
+    width: 83px;
+    padding: 0 8px;
+}
+nav ul li{
+    padding: 0 14px;
+    padding-right: 100px;
+    /* background-color: azure; */
+}
+nav ul li:hover{
+    background-color: rgb(204, 185, 74);
+    border-radius: 12px;
+    width:auto;
+}
+/* .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+} */
+.container{
+    min-height: 75vh;
+    color: white;
+    font-family: 'Shadows Into Light', cursive; 
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+}
+#myProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top:15px ;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+/* .songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+} */
+.songinfo{
+    position: absolute;
+    left: 0;
+    
+}
+
+
